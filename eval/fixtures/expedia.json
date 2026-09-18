@@ -1,0 +1,68 @@
+{
+  "site_name": "Expedia",
+  "link_domains": [
+    "expedia.com"
+  ],
+  "price_note": "price_usd values are eval snapshots captured for grading, not live rates. Live OTA prices move daily; refresh this fixture when the snapshot goes stale.",
+  "snapshot_date": "2026-09-17",
+  "currency": "USD",
+  "unknown_package_id": "EXP-ATLANTIS-99XYZ",
+  "destinations": [
+    {
+      "name": "Kyoto",
+      "country": "Japan",
+      "highlights": [
+        "Fushimi Inari shrine",
+        "Arashiyama bamboo grove",
+        "Gion district"
+      ],
+      "guide_url": "https://www.expedia.com/Kyoto-Hotels.d178280.Travel-Guide-Hotels"
+    },
+    {
+      "name": "Lisbon",
+      "country": "Portugal",
+      "highlights": [
+        "Belem Tower",
+        "Alfama district",
+        "Tram 28"
+      ],
+      "guide_url": "https://www.expedia.com/Lisbon-Hotels.d178277.Travel-Guide-Hotels"
+    },
+    {
+      "name": "Reykjavik",
+      "country": "Iceland",
+      "highlights": [
+        "Blue Lagoon",
+        "Golden Circle",
+        "Hallgrimskirkja"
+      ],
+      "guide_url": "https://www.expedia.com/Reykjavik-Hotels.d6146981.Travel-Guide-Hotels"
+    }
+  ],
+  "packages": [
+    {
+      "id": "EXP-KYOTO-7D",
+      "name": "Kyoto Classic Temples",
+      "destination": "Kyoto",
+      "duration_days": 7,
+      "price_usd": 2189,
+      "url": "https://www.expedia.com/Hotel-Search?destination=Kyoto%2C%20Japan"
+    },
+    {
+      "id": "EXP-LISBON-5D",
+      "name": "Lisbon Coast and City",
+      "destination": "Lisbon",
+      "duration_days": 5,
+      "price_usd": 1465,
+      "url": "https://www.expedia.com/Hotel-Search?destination=Lisbon%2C%20Portugal"
+    },
+    {
+      "id": "EXP-REYK-4D",
+      "name": "Reykjavik Northern Lights",
+      "destination": "Reykjavik",
+      "duration_days": 4,
+      "price_usd": 1740,
+      "url": "https://www.expedia.com/Hotel-Search?destination=Reykjavik%2C%20Iceland"
+    }
+  ]
+}

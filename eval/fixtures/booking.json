@@ -1,0 +1,68 @@
+{
+  "site_name": "Booking.com",
+  "link_domains": [
+    "booking.com"
+  ],
+  "price_note": "price_usd values are eval snapshots captured for grading, not live rates. Live OTA prices move daily; refresh this fixture when the snapshot goes stale.",
+  "snapshot_date": "2026-09-17",
+  "currency": "USD",
+  "unknown_package_id": "BKG-ATLANTIS-99XYZ",
+  "destinations": [
+    {
+      "name": "Kyoto",
+      "country": "Japan",
+      "highlights": [
+        "Fushimi Inari shrine",
+        "Nishiki Market",
+        "Kinkaku-ji"
+      ],
+      "guide_url": "https://www.booking.com/city/jp/kyoto.html"
+    },
+    {
+      "name": "Lisbon",
+      "country": "Portugal",
+      "highlights": [
+        "Jeronimos Monastery",
+        "Bairro Alto",
+        "Praca do Comercio"
+      ],
+      "guide_url": "https://www.booking.com/city/pt/lisbon.html"
+    },
+    {
+      "name": "Reykjavik",
+      "country": "Iceland",
+      "highlights": [
+        "Blue Lagoon",
+        "Harpa Concert Hall",
+        "Sun Voyager"
+      ],
+      "guide_url": "https://www.booking.com/city/is/reykjavik.html"
+    }
+  ],
+  "packages": [
+    {
+      "id": "BKG-KYOTO-7D",
+      "name": "Kyoto Machiya Stay",
+      "destination": "Kyoto",
+      "duration_days": 7,
+      "price_usd": 1975,
+      "url": "https://www.booking.com/searchresults.html?ss=Kyoto%2C+Japan"
+    },
+    {
+      "id": "BKG-LISBON-5D",
+      "name": "Lisbon Riverside Stay",
+      "destination": "Lisbon",
+      "duration_days": 5,
+      "price_usd": 1320,
+      "url": "https://www.booking.com/searchresults.html?ss=Lisbon%2C+Portugal"
+    },
+    {
+      "id": "BKG-REYK-4D",
+      "name": "Reykjavik Aurora Stay",
+      "destination": "Reykjavik",
+      "duration_days": 4,
+      "price_usd": 1610,
+      "url": "https://www.booking.com/searchresults.html?ss=Reykjavik%2C+Iceland"
+    }
+  ]
+}
